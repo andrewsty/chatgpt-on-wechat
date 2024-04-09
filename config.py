@@ -160,6 +160,11 @@ available_setting = {
     "linkai_api_key": "",
     "linkai_app_code": "",
     "linkai_api_base": "https://api.link-ai.chat",  # linkAI服务地址，若国内无法访问或延迟较高可改为 https://api.link-ai.tech
+    
+    "use_difyai": True,
+    "difyai_api_key": "",
+    "difyai_app_code": "",
+    "difyai_api_base": "",  # difyAI服务地址
 }
 
 

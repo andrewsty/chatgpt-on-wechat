@@ -46,6 +46,9 @@ class Bridge(object):
         if model_type in ["claude"]:
             self.btype["chat"] = const.CLAUDEAI
 
+        if conf().get("use_difyai") and conf().get("difyai_api_key"):
+            self.btype["chat"] = const.DIFYAI
+
         self.bots = {}
         self.chat_bots = {}
     # 模型对应的接口

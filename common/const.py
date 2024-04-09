@@ -11,6 +11,7 @@ QWEN = "qwen"
 GEMINI = "gemini"
 ZHIPU_AI = "glm-4"
 MOONSHOT = "moonshot"
+DIFYAI = "difyai"
 
 
 # model
